@@ -1,0 +1,96 @@
+    
+  .skills {
+    height: 600px;
+    font-size: 35px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    height: 400px;
+    color: #522d97;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    align-items: flex;
+  }
+  
+  
+  .item h2 {
+    position: fixed;
+    top: 330px;
+    left: 600px;
+    color: #522d97;
+    font-size: 128%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .wpmVid {
+    size: 50px;
+    position: fixed;
+    left: 465px;
+    top: 450px;
+    height: 30%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .pcVid {
+    size: 50px;
+    position: fixed;
+    right: 420px;
+    top: 450px;
+    height: 30%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .item h3 {
+    top: 330px;
+    right: 600px;
+    position: fixed;
+    color: #522d97;
+    font-size: 120%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }  
+   
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+
+    .about h3 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 60%;
+    }
+  
+    .skills {
+        
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
