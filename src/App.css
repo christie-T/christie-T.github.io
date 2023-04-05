@@ -1,8 +1,11 @@
 .App {
   text-align: center;
+  max-width: 1920px;
 }
 
 .App-logo {
+  
+  max-width: 1920px;
   height: 40vmin;
   pointer-events: none;
 }
@@ -16,6 +19,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  max-width: 1920px;
   display: flex;
   flex-direction: column;
   align-items: center;
