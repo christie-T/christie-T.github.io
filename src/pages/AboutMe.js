@@ -5,7 +5,7 @@ import PlayerPC from "../playerPC"
 
 function AboutMe() {
   return (
-    <div>
+    <div className = "body">
     <div className = "skills">
         <h1> Some Cool Things </h1>
           <div className = "item">

@@ -1,17 +1,18 @@
-    
-  .skills {
+  .body {
     height: 600px;
+  }  
+  
+  .skills {
     font-size: 35px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
   }
   
   .skills h1 {
-    height: 400px;
+    height: 1px;
+    bottom: 843px;
+    position: absolute;
+    left: 680px;
     color: #522d97;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
@@ -20,9 +21,9 @@
   
   
   .item h2 {
-    position: fixed;
-    top: 330px;
-    left: 600px;
+    position: absolute;
+    top: 300px;
+    left: 550px;
     color: #522d97;
     font-size: 128%;
     height: 100%;
@@ -31,8 +32,8 @@
   }  
 
   .wpmVid {
+    position: absolute;
     size: 50px;
-    position: fixed;
     left: 465px;
     top: 450px;
     height: 30%;
@@ -42,10 +43,10 @@
   }  
 
   .pcVid {
+    position: absolute;
     size: 50px;
-    position: fixed;
-    right: 420px;
     top: 450px;
+    right: 460px;
     height: 30%;
     width: 20%;
     align-items: center;
@@ -53,9 +54,9 @@
   }  
 
   .item h3 {
-    top: 330px;
+    position: absolute;
+    top: 300px;
     right: 600px;
-    position: fixed;
     color: #522d97;
     font-size: 120%;
     height: 100%;

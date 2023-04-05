@@ -1,6 +1,7 @@
 .home {
+  position: sticky;
   width: 100%;
-  height: calc(160vh - 100px);
+  height: 1100px;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #522d97;
