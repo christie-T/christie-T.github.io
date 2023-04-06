@@ -1,21 +1,24 @@
   .body {
-    height: 600px;
+    position: sticky;
+    height: 800px;
+    width: 1920px;
+    align-items: center;
   }  
   
   .skills {
     font-size: 35px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
+  
   }
   
   .skills h1 {
     height: 1px;
-    bottom: 700px;
+    bottom: 590px;
     position: absolute;
-    left: 600px;
+    left: 650px;
     color: #522d97;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 80;
     align-items: flex;
   }
   
@@ -23,10 +26,9 @@
   .item h2 {
     position: absolute;
     top: 300px;
-    left: 550px;
+    left: 540px;
     color: #522d97;
-    font-size: 128%;
-    height: 100%;
+    font-size: 44px;
     align-items: center;
     justify-content: center;
   }  
@@ -58,8 +60,7 @@
     top: 300px;
     right: 600px;
     color: #522d97;
-    font-size: 120%;
-    height: 100%;
+    font-size: 28;
     align-items: center;
     justify-content: center;
   }  
@@ -80,7 +81,6 @@
     .about .prompt {
       margin-top: 10px;
       font-size: 20px;
-      width: 60%;
     }
   
     .skills {

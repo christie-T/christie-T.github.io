@@ -1,6 +1,6 @@
 .home {
   position: sticky;
-  height: 1920px;
+  height: 1200px;
   width: 1920px;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -8,7 +8,6 @@
 }
 
 .about {
-  width: 100%;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
@@ -36,9 +35,9 @@
 
 .about .prompt {
   height: 300px;
-  width: 40%;
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
@@ -48,7 +47,6 @@
 .skills {
   height: 10px;
   font-size: 35px;
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -60,10 +58,9 @@
 }
 
 .skills .list {
-  height: 100%;
-  top: 100px;
+  position: absolute;
+  top: 850px;
   list-style: none;
-  width: 60%;
 }
 
 .list span {
@@ -83,7 +80,6 @@
     bottom: 100px;
     margin-top: 10px;
     font-size: 20px;
-    width: 80%;
   }
 
   .skills {
