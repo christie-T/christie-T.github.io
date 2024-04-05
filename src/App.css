@@ -1,0 +1,292 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+  background-color: #19192e;
+}
+
+body {
+  
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+p.success {
+	color: green;
+}
+
+p.danger {
+	color: red;
+}
+/************ Navbar Css ************/
+nav.navbar {
+  padding: 24px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+  margin-right: 25%;
+  display: flex;
+  justify-content: space-between; /* ensure equal space between items */
+  align-items: center;  
+}
+
+nav.navbar.scrolled {
+  padding: 10px 0;
+  background-color: #19192e;
+}
+nav.navbar a.navbar-brand {
+  white-space: nowrap; 
+  display: flex;
+  color: #cccce5; 
+  font-weight: 600;
+  padding-right: 55px;
+  width: auto;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+
+}
+  
+nav.navbar .navbar-nav {
+  align-items: center;
+  flex-grow: 1; 
+  display: flex; 
+  justify-content: flex-start; /* align navbar links left */
+  flex-direction: row; 
+  
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  
+  font-weight: 600;
+  color: #cccce5 !important;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-right: 20px; /* add space between links */
+
+}
+
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {  /* hover is built in css */
+   color: #73f5d2 !important;
+}
+
+
+.social-icon {
+  display: flex; /* use flexbox */
+  margin-left: auto; /* margin for spacing */
+  flex-wrap: nowrap; /* ensure icons stay in a single row */
+  height: 22px;
+}
+
+
+
+
+.social-icon a {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    margin-right: 2px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+  
+
+.social-icon a:hover::before {
+    transform: scale(1);
+}
+.social-icon a img {
+	width: 40%;
+	z-index: 1; 
+  filter: sepia(86%) saturate(1080%) hue-rotate(180deg) brightness(87%) contrast(108%);
+
+}
+
+.social-icon a:hover img {
+	
+  filter: invert(20%) sepia(30%) saturate(450%) hue-rotate(110deg) brightness(110%) contrast(92%) !important;}
+
+/************ Banner Css ************/
+.banner {
+ 
+  margin-top: 0;
+  padding: 100px 60px 100px 60px;
+  background-color: #19192e;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.banner h1 {
+  color: #cccce5;
+ 
+  overflow: hidden;
+  border-right: .07em solid #73f5d2;
+  border-radius: 0 2px 2px 0;
+  opacity: 0.90;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: flexbox;  
+  white-space: nowrap;
+
+  animation: 
+    typing 2.5s steps(35, end) forwards, /* Adjust animation duration and steps as needed */
+    blink 2s 2.5s infinite;   
+    
+}
+
+
+@keyframes typing {
+  from { width: 30px; }
+  to { width: 500px; }
+}
+
+@keyframes blink {
+  25% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #73f5d2; /* Change this to your desired border color */
+  }
+  75% {
+    border-color: transparent;
+  }
+}
+
+.banner p {
+  color: #cccce5c9;
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+.banner p2 {
+  color: #cccce5c9;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+.christie {
+  color: #73f5d2 !important;
+}
+
+
+.banner button {
+  color: #73f5d2;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+
+  line-height: 1;
+}
+
+.banner img {
+  margin-bottom: auto;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  display: flex;
+  width: 400px;
+  max-width: 50%; /* Set the maximum width of the image to 100% of its container */
+  height: auto; /* Let the height adjust automatically to preserve aspect ratio */
+  white-space: nowrap;
+  animation: updown 2.6s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
