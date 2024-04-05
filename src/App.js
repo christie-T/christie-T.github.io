@@ -1,23 +1,15 @@
+import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import AboutMe from './pages/AboutMe';
-import SkillsExperience from './pages/SkillsExperience';
-import Navbar from './components/Navbar';
-import Footer from "./components/Footer"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./components/NavBar"; // import component from where it is defined
+import { Banner } from "./components/Banner";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/skillsexperience" element={<SkillsExperience />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <NavBar />
+      <Banner />
+
     </div>
   );
 }
