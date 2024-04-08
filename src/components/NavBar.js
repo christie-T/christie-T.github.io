@@ -1,5 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Banner } from "./Banner";
+import { Link, animateScroll as scroll } from 'react-scroll';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -25,7 +27,11 @@ export const NavBar = () => {
             <Navbar.Brand href="/"> {/* component from react-bootstrap for logo in navbar */}
             christie-tang
           </Navbar.Brand>
+
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>/ home</Nav.Link>
+          
+
+          
               <Nav.Link href="#projects" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>/ projects</Nav.Link>
               <Nav.Link href="#about" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>/ about</Nav.Link>
 
