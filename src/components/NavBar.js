@@ -29,10 +29,9 @@ export const NavBar = () => {
           </Navbar.Brand>
 
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>/ home</Nav.Link>
-          
-
-          
+      
               <Nav.Link href="#projects" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>/ projects</Nav.Link>
+      
               <Nav.Link href="#about" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>/ about</Nav.Link>
 
             </Navbar.Collapse>
@@ -42,6 +41,7 @@ export const NavBar = () => {
               <a href="https://www.instagram.com/christi3e/" target="_blank"><img className="nav-icon" src={navIcon3} alt="" /></a>
               </div>
             </Nav>
+        
         </Container>
       </Navbar>
     </Router>
