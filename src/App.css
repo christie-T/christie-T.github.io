@@ -94,7 +94,7 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
   margin-right: 25%;
-  display: flex;
+  
   justify-content: space-between; /* ensure equal space between items */
   align-items: center;  
 }
@@ -175,7 +175,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {  /* hover is built in css 
 	
   filter: invert(20%) sepia(30%) saturate(450%) hue-rotate(110deg) brightness(110%) contrast(92%) !important;}
 
-/************ Banner Css ************/
+/************ Banner CSS ************/
 .banner {
  
   margin-top: 0;
@@ -290,3 +290,80 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {  /* hover is built in css 
   border-right: 0.08em solid #666;
 }
 
+/************ Project CSS ************/
+
+.projects {
+ 
+  margin-top: 0;
+  padding: 100px 60px 100px 10px;
+  background-color: #19192e;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.projects h1 {
+  color: #cccce5;
+  opacity: 0.90;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: flex;  
+  white-space: nowrap;
+  justify-content: flex-start; /* align navbar links left */
+  margin-left: 26px;
+  align-items: center;
+
+}
+
+.projects h1::after {
+  flex: 1;
+  content: '';
+  padding: 0.4px;
+  background-color:#cccce597;
+  margin-top: 2px;
+  margin-left: 30px;
+  margin-right: 900px;
+}
+
+/************ About CSS ************/
+
+.about {
+ 
+  margin-top: 0;
+  padding: 100px 60px 100px 10px;
+  background-color: #19192e;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.about h1 {
+  color: #cccce5;
+  opacity: 0.90;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: flex;  
+  white-space: nowrap;
+  justify-content: flex-start; /* align navbar links left */
+  margin-left: 26px;
+  align-items: center;
+
+}
+
+.about h1::after {
+  flex: 1;
+  content: '';
+  padding: 0.4px;
+  background-color:#cccce597;
+  margin-top: 2px;
+  margin-left: 30px;
+  margin-right:900px;
+}

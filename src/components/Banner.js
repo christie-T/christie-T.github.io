@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react"
+import {useState} from "react"
 import { Container, Row, Col } from "react-bootstrap"; // import container, row, col components from react-bootstrap library
 import headerImg from "../assets/img/header-img.svg"; 
 import { Mailbox, MailboxFlag } from 'react-bootstrap-icons'; 
