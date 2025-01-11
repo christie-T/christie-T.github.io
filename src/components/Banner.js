@@ -20,7 +20,7 @@ export const Banner = () => {
                   
                   <p>i like to build things.</p>
                   
-                  <p2> I'm a second-year Computer Science student @ YU from Toronto, Canada. Sometimes I build stuff to make life a little easier. Have a look! </p2>
+                  <p2> I'm a third-year Computer Science student @ YU from Toronto, Canada. Here you can find some of my projects (some half-baked...) Have a look! </p2>
                   
                   <button 
                   
