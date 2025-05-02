@@ -1,6 +1,7 @@
-# 👩🏼‍🚀 v2 of my project portfolio 🚀
+# 👩🏼‍🚀 v2.1 of my project portfolio 🚀
 
-<img width="800" alt="image" src="https://github.com/christie-T/christie-T.github.io/assets/60620814/a26e51ae-ea9e-4fcf-b1f7-e1e7c16a6a38">
+![image](https://github.com/user-attachments/assets/d0446d80-dbd1-4ec3-b5e8-066b9e1bc7fd)
+
 
 ## 🛠 set-up
 
