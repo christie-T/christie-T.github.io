@@ -1,6 +1,7 @@
 # 👩🏼‍🚀 v2.1 of my project portfolio 🚀
 
-![image](https://github.com/user-attachments/assets/d0446d80-dbd1-4ec3-b5e8-066b9e1bc7fd)
+![image](https://github.com/user-attachments/assets/37a4bab1-bde1-4a2d-be89-db2cbf0a3209)
+
 
 
 ## 🛠 set-up
