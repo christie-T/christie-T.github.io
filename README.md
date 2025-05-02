@@ -1,4 +1,4 @@
-# 👩🏼‍🚀 v2.1 of my project portfolio 🚀
+# 👩🏼‍🚀 v2.5 of my project portfolio 🚀
 
 ![image](https://github.com/user-attachments/assets/56110209-9cb2-492c-9e97-dae40507a110)
 
