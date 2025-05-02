@@ -19,7 +19,9 @@
 
 .App {
   background-color: #19192e;
-  padding: 0 580px;
+  padding: 0 30%;
+  align-items: center;
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -44,7 +46,6 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
@@ -107,13 +108,14 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 100px 0;
-  width: 100%;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100px;
   z-index: 9999;
-  transition: 0.32s ease-in-out;
-  justify-content: space-between; /* ensure equal space between items */
-  align-items: center;
+  padding: 0px 5%; /* Adjust padding as needed */
+  background-color: #19192e;
 }
 
 nav.navbar.scrolled {
@@ -152,7 +154,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
   color: #73f5d2 !important;
 }
 
-.social-icon {
+social-icon {
   display: flex; /* use flexbox */
   margin-left: auto; /* margin for spacing */
   flex-wrap: nowrap; /* ensure icons stay in a single row */
@@ -186,8 +188,9 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 
 /************ Banner CSS ************/
 .banner {
-  margin-bottom: 100px;
-  padding: 100px 0px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  padding: 150px 0px;
   background-color: #19192e;
   background-position: top center;
   background-size: cover;
@@ -326,7 +329,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 .projects h1::after {
   content: "";
   display: inline-block;
-  height: 0.065px;
+  height: 0.09px;
   opacity: 0.5;
   width: 50%;
   background-color: #cccce597;
